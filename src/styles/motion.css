@@ -1,0 +1,11 @@
+#defa{
+    height: 80px;
+    width: 80px;
+    background: #4800ff;
+    border-radius: 100px;
+}
+.motion{
+    height: 100%;
+    width: 100%;
+    background: black;
+}

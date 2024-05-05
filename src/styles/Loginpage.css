@@ -1,0 +1,139 @@
+.signin-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login-form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 20px;
+    padding: 4%;
+}
+
+.top-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #262626;
+}
+
+.login-big-text {
+    font-size: 22px;
+    font-weight: 700;
+    color: black;
+}
+
+.redirection {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.redirection-text {
+    font-size: 14px;
+}
+
+.redirection-link {
+    font-size: 14px;
+}
+
+.redirection-link:hover {
+    cursor: pointer;
+}
+
+.redirection-link:active {
+    scale: 0.98;
+    opacity: 50%;
+}
+
+.field-content {
+    padding: 10% 0
+}
+
+.text-field {
+    font-size: 16px;
+    color: #6b6b6b;
+    padding: 2% 0;
+    font-weight: 600;
+}
+
+.decription-field {
+    height: 302px;
+    margin-top: -6%;
+}
+
+.field input {
+    width: 88%;
+    border: 0;
+    border-radius: 14px;
+    padding: 6%;
+    background-color: white;
+    opacity: 50%;
+}
+
+.field input:focus {
+    outline:  2px solid #312245;
+}
+
+.field textarea {
+    width: 88%;
+    height: 100%;
+    border: 0;
+    border-radius: 14px;
+    padding: 6%;
+    background-color: white;
+    opacity: 50%;
+    resize: none;
+}
+
+.field textarea:focus {
+    outline:  2px solid #312245;
+}
+
+.forgot {
+    display: flex;
+    justify-content: end;
+    padding: 1% 0;
+    color: black;
+    font-size: 14px;
+}
+
+.forgot:hover {
+    cursor: pointer;
+}
+
+.forgot:active {
+    scale: 0.98;
+}
+
+.login-button {
+    background-image: url(../assets/images/buttonBG.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    height: 74px;
+    transition: all 0.2s ease-in-out;
+}
+
+.login-button:hover {
+    cursor: pointer;
+}
+
+.login-button:active {
+    scale: 0.98;
+}
+
+.login-illustration {
+    width: 66%;
+    height: 100vh;
+}

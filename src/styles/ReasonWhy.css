@@ -1,0 +1,22 @@
+.ReasonWhy-container {
+    width: 300px;
+    height: fit-content;
+}
+
+.reasonIcon {
+    width: 36px;
+    height: 36px;
+}
+
+.reasonTitle {
+    padding: 18px 0 12px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.reasonDescript {
+    font-weight: 214;
+    font-size: 15px;
+    font-weight: 300;
+    color: #a4a4a4;
+}

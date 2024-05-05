@@ -1,0 +1,35 @@
+*,::before,::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: BruceForeverRegular;
+  src: url("/public/fonts/BruceForeverRegular-X3jd2.ttf");
+}
+
+@font-face {
+  font-family: PixelSport;
+  src: url("/public/fonts/PixelSport-nRVRV.ttf");
+}
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color: white;
+
+  background-color: var(--background-color);
+
+  --background-color: #010101;
+
+  --level-title: "BruceForeverRegular";
+  --level-font: "PixelSport"
+
+}

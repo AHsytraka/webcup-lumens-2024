@@ -1,0 +1,176 @@
+.certificat-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../assets/images/certificat.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.top-certificat {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4%;
+    align-items: center;
+    height: 12vh;
+}
+
+.certificate-name {
+    font-family: var(--level-title);
+}
+
+.about-certification {
+    width: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-certified {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    height: 100%;
+    background-color: #1E1E1E;
+    border-radius: 200px;
+    padding: 4%;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.certificate-hero-name {
+    font-family: var(--level-title);
+    font-size: 22px;
+    margin-left: 6%;
+}
+
+.hero-certified img {
+    width: 16px;
+    height: 18px;
+    padding: 0 4%;
+}
+
+.hero-certified div {
+    padding: 0 4%;
+}
+
+.certificat-profil {
+    height: 36px;
+    width: 36px;
+    border-radius: 200px;
+    background-color: #1E1E1E;
+}
+
+/* .certificat-profil img {
+    height: 36px;
+    width: 36px;
+} */
+
+.certificat-text {
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    padding: 3% 0;
+}
+
+.certificat-little-text {
+    font-family: var(--level-title);
+    font-size: 20px;
+    text-align: center;
+    color: #828282;
+}
+
+.chooseteam-little-text {
+    font-family: var(--level-title);
+    font-size: 22px;
+    text-align: center;
+}
+
+.certificat-big-text {
+    font-family: var(--level-title);
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero-type {
+    font-family: var(--level-title);
+    font-size: 48px;
+    color: #4C2D73;
+    line-height: 0;
+}
+
+.hero-type-defense {
+    font-family: var(--level-title);
+    font-size: 48px;
+    color: #FFC047;
+    line-height: 0;
+}
+
+.hero-type-support {
+    font-family: var(--level-title);
+    font-size: 48px;
+    color: #1F3DD9;
+    line-height: 0;
+}
+
+.five-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-card {
+    width: 274px;
+    height: 444px;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    position: absolute;
+    background-size: cover;
+}
+
+#two-card {
+    rotate: -10deg;
+    margin-top: 4%;
+    margin-left: -32%;
+    z-index: 2;
+    background-image: url("src/assets/images/one.jpg");
+}
+
+#one-card {
+    rotate: -16deg;
+    margin-top: 12%;
+    margin-left: -62%;
+    z-index: 1;
+    background-image: url("src/assets/images/two.jpg");
+}
+
+#three-card {
+    z-index: 3;
+    background-image: url("src/assets/images/three.jpg");
+}
+
+#four-card {
+    rotate: 10deg;
+    margin-top: 4%;
+    margin-left: 32%;
+    z-index: 2;
+    background-image: url("src/assets/images/four.jpg");
+}
+
+#five-card {
+    rotate: 16deg;
+    margin-top: 12%;
+    margin-left: 62%;
+    z-index: 1;
+    background-image: url("src/assets/images/five.jpg");
+}
+
+.team-list {
+    padding: 4% 6%;
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+}

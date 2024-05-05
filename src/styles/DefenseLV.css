@@ -1,0 +1,167 @@
+.defencelv-container {
+    display: flex;
+    background-color: #0A0A0A;
+    width: 100%;
+    height: 100vh;
+}
+
+.background-divd1 {
+    width: 70%;
+    height: 50%;
+    background-color: #312206;
+    border-radius: 200px;
+    position: fixed;
+    filter: blur(120px);
+    margin: -16% 0 0 44%;
+    z-index: 0;
+}
+
+.background-divd2 {
+    width: 50%;
+    height: 50%;
+    background-color: #312206;
+    border-radius: 200px;
+    position: fixed;
+    filter: blur(120px);
+    margin: 46% 0 0 -20%;
+    z-index: 0;
+}
+
+.level1-text {
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 4%;
+}
+
+.defense-level-number {
+    font-family: var(--level-font);
+    font-size: 20px;
+    padding: 1% 2%;
+    border: 2px solid #FFC047;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFC047;
+    transform: skew(-20deg);
+}
+
+.hero-in-formation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 4% 0 2% 0;
+}
+
+.hero-profil {
+    width: 42px;
+    height: 42px;
+    background-color: aqua;
+    border-radius: 200px;
+}
+
+.hero-name {
+    padding: 0 4%;
+    font-size: 16px;
+}
+
+.level-name {
+    font-family: var(--level-title);
+    font-size: 58px;
+    line-height: 70px;
+}
+
+.hero-score {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0;
+}
+
+.level-value {
+    font-family: var(--level-font);
+    font-size: 32px;
+}
+
+.bottom-level {
+    display: flex;
+    padding: 10% 0;
+}
+
+.defense-level-button {
+    width: 40%;
+    height: 100%;
+    font-family: var(--level-font);
+    font-size: 20px;
+    padding: 3%;
+    color: white;
+    background-image: linear-gradient(to right, #5C400A, #FFC047);
+    border: 0;
+    transform: skew(-20deg);
+    transition: all 0.2s ease-in-out;
+}
+
+.defense-level-button:hover {
+    cursor: pointer;
+}
+
+.defense-level-button:active {
+    scale: 0.98
+}
+
+.button-text {
+    transform: skew(20deg);
+}
+
+.level1-3d {
+    width: 58%;
+}
+
+.level-content {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-content {
+    height: 20%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 8%;
+}
+
+.defense-next-button {
+    width: 22%;
+    height: 32%;
+    font-family: var(--level-title);
+    transform: skew(-20deg);
+    font-size: 16px;
+    background-color: #decff028;
+    color: #FFC047;
+    border: 1px solid #FFC047;
+    transition: all 0.2s ease-in-out;
+}
+
+.defense-next-text {
+    transform: skew(10deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.defense-next-text img {
+    width: 20px;
+    padding: 0 0 0 10%;
+}
+
+.defense-next-button:hover {
+    cursor: pointer;
+}
+
+.defense-next-button:active {
+    scale: 0.98;
+}

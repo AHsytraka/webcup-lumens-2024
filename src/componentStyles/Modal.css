@@ -1,0 +1,29 @@
+.modal-container {
+    height: 60vh;
+    width: 80%;
+    margin: 2% 2%;
+    position: absolute;
+    background-color: #1e1e1e;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+    padding: 8%;
+}
+
+.modal-title {
+    font-family: var(--level-title);
+    font-size: 38px;
+}
+
+.modal-description {
+    font-family: var(--level-font);
+    font-size: 40px;
+    text-align: center;
+    padding: 4% 0;
+}
+
+.bottom-modal {
+    display: flex;
+    justify-content: end;
+}
